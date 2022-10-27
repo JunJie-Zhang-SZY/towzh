@@ -23,7 +23,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 2.5em;
+    font-size: 2.0em;
     font-family: '楷体';
     position: relative;
     /* 使盒子具备透视效果 */
@@ -36,13 +36,13 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     width: 50%;
     height: 100%;
     color: #b7c4cf;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     font-family: '华文行楷';
 
 }
 .card::before {
-    content: '写给你的';
+    content: '写给王老师的';
     left: 0;
     top: 0;
     display: flex;
@@ -106,7 +106,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     100% {
       transform: rotate(45deg) scale(1.1) translateX(-70%);
     }
-  } 
+  }
   /* cv工程师 嘿嘿嘿 */
   .heart {
     position: absolute;
@@ -178,7 +178,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     background-image: url(bac.jpg);
     overflow: hidden;
     background-size: cover;
-    font-size: 25px;
+    font-size: 20px;
     font-family: '华文行楷';
     transition: opacity 7s;
 }
